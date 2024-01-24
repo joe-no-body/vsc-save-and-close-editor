@@ -2,6 +2,7 @@
   "name": "save-and-close-editor",
   "displayName": "save-and-close-editor",
   "description": "Adds a command to save and close editors in one go.",
+  "repository": "https://github.com/joe-no-body/vsc-save-and-close-editor",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.85.0"
