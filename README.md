@@ -22,4 +22,8 @@ None so far.
 
 ### 1.0.0
 
-- Adds the command "Save and Close Editor".
+- Adds the command "File: Save and Close Editor".
+
+### 1.0.1
+
+- "File: Save and Close Editor" will only save if the active document is dirty.
