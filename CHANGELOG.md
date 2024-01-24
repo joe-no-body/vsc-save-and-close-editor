@@ -13,3 +13,4 @@ All notable changes to the "save-and-close-editor" extension will be documented 
 ### Fixed
 
 - "File: Save and Close Editor" will only save if the active document is dirty.
+- Support older VS Code versions.
