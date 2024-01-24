@@ -1,6 +1,6 @@
 {
-  "name": "save-and-close-tab",
-  "displayName": "save-and-close-tab",
+  "name": "save-and-close-editor",
+  "displayName": "save-and-close-editor",
   "description": "Adds a command to save and close editors in one go.",
   "version": "0.0.1",
   "engines": {
@@ -14,8 +14,8 @@
   "contributes": {
     "commands": [
       {
-        "command": "save-and-close-tab.saveAndCloseActiveEditor",
-        "title": "Save and Close Editor"
+        "command": "save-and-close-editor.saveAndCloseActiveEditor",
+        "title": "File: Save and Close Editor"
       }
     ]
   },

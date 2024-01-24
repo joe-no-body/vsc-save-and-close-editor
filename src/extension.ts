@@ -1,7 +1,7 @@
 import * as vscode from 'vscode';
 
 export function activate(context: vscode.ExtensionContext) {
-	let disposable = vscode.commands.registerCommand('save-and-close-tab.saveAndCloseActiveEditor', async () => {
+	let disposable = vscode.commands.registerCommand('save-and-close-editor.saveAndCloseActiveEditor', async () => {
     await vscode.commands.executeCommand("workbench.action.files.save");
     vscode.commands.executeCommand("workbench.action.closeActiveEditor");
 	});
